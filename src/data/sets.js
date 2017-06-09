@@ -2,24 +2,30 @@
 
 const sets = [{
   'id': 'jarreau-vandal',
-  'title': 'Boiler Room x Appelsap',
+  'title': 'Jarreau Vandal | Appelsap Festival x Boiler Room DJ Set',
   'artist': 'Jarreau Vandal',
   'location': 'Amsterdam',
-  'image': 'jarreau-vandal.jpg'
+  'link': 'https://youtu.be/RtdOwylTr7Y',
+  'image': 'jarreau-vandal.gif',
+  'cover': 'jarreau-vandal-cover.jpg'
   },
   {
-  'id' : 'dj-jazzy-jeff',
-  'title': 'Boiler Room x Budweiser',
-  'artist': 'DJ Jazzy Jeff',
-  'location': 'Philadelphia',
-  'image': 'dj-jazzy-jeff.jpg'
+  'id' : 'esta',
+  'title': 'ESTA Boiler Room London DJ Set',
+  'artist': 'Esta',
+  'location': 'London',
+  'link': 'https://youtu.be/kemmHXG6dL8',
+  'image': 'esta.gif',
+  'cover': 'esta-cover.jpg'
   },
   {
   'id' : 'dj-ez',
-  'title': 'Boiler Room x RBMA',
+  'title': 'DJ EZ Boiler Room x RBMA London DJ Set',
   'artist': 'DJ EZ',
   'location': 'London',
-  'image': 'dj-ez.jpg'
+  'link': 'https://youtu.be/qQaEWVYuyXU',
+  'image': 'dj-ez.gif',
+  'cover': 'dj-ez-cover.jpg'
   }
 ];
 

@@ -13,7 +13,7 @@ export default class Layout extends React.Component {
         <div className="app-content">{this.props.children}</div>
         <footer>
           <p>
-            Insert text here
+            Here are my top three Boiler Room sets, in no particular order. Click on the links to find more details.
           </p>
         </footer>
       </div>
