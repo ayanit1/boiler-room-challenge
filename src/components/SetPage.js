@@ -14,7 +14,7 @@ export default class SetPage extends React.Component {
     const headerStyle = { backgroundImage: `url(/img/${set.cover})` };
     return (
       <div className="set-full">
-        <SetMenu sets={sets}/>
+        <SetsMenu sets={sets}/>
         <div className="set">
           <header style={headerStyle}/>
           <div className="picture-container">

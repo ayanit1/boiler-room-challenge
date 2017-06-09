@@ -6,7 +6,7 @@ export default class SetsMenu extends React.Component {
     return (
       <nav className="sets-menu">
         {this.props.sets.map(menuSet => {
-          return <Link key={menuSet.id} to={'/set/${menuSet.id}'} activeClassName="active">
+          return <Link key={menuSet.id} to={`/set/${menuSet.id}`} activeClassName="active">
           {menuSet.artist}
           </Link>;
         })}
