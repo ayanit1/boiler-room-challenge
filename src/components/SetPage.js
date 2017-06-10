@@ -19,7 +19,7 @@ export default class SetPage extends React.Component {
           <header style={headerStyle}/>
           <div className="picture-container">
             <img src={`/img/${set.image}`}/>
-            <h2 className="name">{set.title}</h2>
+            <h3 className="name">{set.title}</h3>
           </div>
           <section className="description">
             {set.artist}
