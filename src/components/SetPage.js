@@ -22,8 +22,9 @@ export default class SetPage extends React.Component {
             <h2 className="name">{set.artist}</h2>
           </div>
           <section className="description">
-            {set.title}
-            {set.location}
+            <h2>Title: {set.title}</h2>
+            <h2>Location: {set.location}</h2>
+            <h2><a href={set.link} target="_blank">Watch on youtube</a></h2>
           </section>
         </div>
         <div className="navigateBack">

@@ -31,7 +31,7 @@ header .logo {
 }
 
 footer {
-  margin: 4em auto;
+  margin: 0 auto;
   padding: 2em;
   text-align: center;
   max-width: 800px;
