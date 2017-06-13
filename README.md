@@ -31,9 +31,11 @@ Getting Started
 - React
 
 ### Installation
-- `git clone git@github.com:ayanit1/boiler-room-challenge.git`
-- `cd boiler-room-challenge`
-- `npm install`
+```
+git clone git@github.com:ayanit1/boiler-room-challenge.git
+cd boiler-room-challenge
+npm install
+```
 
 ### Running the ap
 - run `NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js`
@@ -41,6 +43,8 @@ Getting Started
 
 Improvements
 ============
+- Because this is fairly new technology to me, a majority of code was spiked. I would explore the use of Jest and add testing.
+- I am aware there may be some comments around. Normally I would remove, but it's to help my understanding.
 
 Author
 ======
