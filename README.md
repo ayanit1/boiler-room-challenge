@@ -43,7 +43,7 @@ npm install
 
 Improvements
 ============
-- Because this is fairly new technology to me, a majority of code was spiked. I would explore the use of Jest and add testing.
+- Because this is fairly new technology to me, a majority of code was spiked. I would explore the use of Jest and add testing, but was specified as a must.
 - I am aware there may be some comments around. Normally I would remove, but it's to help my understanding.
 
 Author
