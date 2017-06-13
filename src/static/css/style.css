@@ -160,8 +160,13 @@ nav.sets-menu a.active {
 .set .description {
   font-family: "Varela";
   text-align: center;
-  font-size: 1.6em;
-  padding: 3em;
+  font-size: 5em;
+  padding: 1em;
+}
+
+.set .videoplayer {
+  align-items: center;
+  padding: 0em 1em 4em 9em;
 }
 
 .navigateBack {

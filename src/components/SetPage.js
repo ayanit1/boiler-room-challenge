@@ -22,10 +22,11 @@ export default class SetPage extends React.Component {
             <h2 className="name">{set.artist}</h2>
           </div>
           <section className="description">
-            <h2>Title: {set.title}</h2>
-            <h2>Location: {set.location}</h2>
-            <h2><a href={set.link} target="_blank">Watch on youtube</a></h2>
-          </section>
+            <h2><strong>{set.title} | {set.location}</strong></h2>
+            </section>
+            <section className="videoplayer">
+            <iframe width="560" height="315" src={set.video} frameborder="0" allowfullscreen></iframe>
+            </section>
         </div>
         <div className="navigateBack">
           <Link to="/">« Back to the index</Link>
