@@ -1,3 +1,5 @@
+'use strict';
+
 import React from 'react';
 import SetPreview from './SetPreview';
 import sets from '../data/sets';
