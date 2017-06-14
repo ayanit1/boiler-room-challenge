@@ -1,12 +1,12 @@
 Boiler Room Challenge
 =====================
 
-A simple web page that displays my favourite top 3 boiler sets built using a simple node server with and react.
+A simple web page that displays my favourite top 3 boiler room sets built using a simple node server and react.
 
 My Approach
 ===========
 
-Prior to this my knowledge in using React and node.js was very little. I aimed to make a simple application which I could make react make network request for a simple piece of text and then built it up, adding features constantly.
+Prior to this, my knowledge in using React and node.js was little. I aimed to make a simple application which I could make react make network request for a simple piece of text and then built it up from there, adding features constantly.
 
 ### User Stories
 ```
@@ -23,7 +23,7 @@ Getting Started
 ===============
 
 ### Prerequisites
-- Have node.js installed. For more information visit https://nodejs.org/en/download/
+- Have node.js installed. For more information on how to download visit https://nodejs.org/en/download/
 
 ### Technologies Used
 - Node.js
@@ -37,13 +37,13 @@ cd boiler-room-challenge
 npm install
 ```
 
-### Running the ap
+### Running the app
 - run `NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js`
 - visit http://localhost:3000 and navigate through page
 
 Improvements
 ============
-- Because this is fairly new technology to me, a majority of code was spiked. I would explore the use of Jest and add testing, but was specified as a must.
+- Because this is fairly new technology to me, a majority of code was spiked. I would explore the use of Jest and add testing, building in a TDD way, but it wasn't specified as a must.
 - I am aware there may be some comments around. Normally I would remove, but it's to help my understanding.
 
 Author
